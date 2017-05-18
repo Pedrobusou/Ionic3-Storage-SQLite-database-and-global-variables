@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  
+  <ion-item>
+    <ion-label ></ion-label>
+    <ion-input type="text" placeholder="set var value" [(ngModel)]="myAge" > </ion-input>
+  </ion-item>
+
+  <button ion-button (click)="setVar()">setVar</button>
+
+
+  <button ion-button (click)="getVar()">getVar</button>
+
+  <button ion-button (click)="setVarDB()">setVarDB</button>
+
+
+  <button ion-button (click)="getVarDB()">getVarDB</button>
+</ion-content>
